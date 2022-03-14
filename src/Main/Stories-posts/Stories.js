@@ -19,7 +19,7 @@ export default function Stories() {
             {usuarios.map((usuario) => (
                 <Story nome={usuario.nome} src={usuario.src} />
             ))}
-            <ion-icon className="setinha" name="chevron-forward-circle"></ion-icon>
+            <ion-icon class="setinha" name="chevron-forward-circle"></ion-icon>
         </div>
     </section>
 </div>

@@ -27,7 +27,7 @@ export default function PostFeed(props) {
         </div>
         <div className="post-curtidas">
             <img src={src_curtidas} alt="ícone" />
-            <p>Curtido por <strong>{nome_curtidas}</strong> e <strong>outras 101.523 pessoas</strong></p>
+            <p>Curtido por <strong>{nome_curtidas}</strong> e <strong>{dados_curtidas}</strong></p>
         </div>
     </article>
     );
@@ -42,7 +42,7 @@ export default function PostFeed(props) {
             <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
         </div>
         <div className="post-imagem">
-            <video controls src={src_post}></video>
+            <video autoPlay muted loop controls src={src_post}></video>
         </div>
         <div className="post-botoes">
             <div className="post-botoes--principais">

@@ -1,5 +1,6 @@
 import Sugestao from "../componentes/Sugestao";
 import SidebarUsuario from "../componentes/SidebarUsuario";
+import SidebarInfos from "../componentes/SidebarInfos";
 
 export default function Sidebar() {
 
@@ -39,7 +40,6 @@ return (
         {sidebar_user.map((data) => (
             <SidebarUsuario nomes={data.nomes} src={data.src} />
         ))}
-
         <div className ="sidebar-sugestoes">
             <div className ="sidebar-sugestoes-titulo">
                 <p>Sugestões para você</p>
@@ -49,12 +49,8 @@ return (
                 <Sugestao nome={data.nome} src={data.src} />
             ))}
         </div>
-        <div className ="sidebar-infos">
-            <p>Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes •
-            Hashtags • Idioma</p>
-            <br />
-            <p>© 2021 INSTAGRAM DO FACEBOOK</p>
-        </div>
+        
+        <SidebarInfos />
     </aside>
 );
 }
