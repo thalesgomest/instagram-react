@@ -1,70 +1,72 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img width="500px "src="https://user-images.githubusercontent.com/97575616/157592388-81c0e474-f2bc-40db-8aba-640a7843f70f.png">
+</p>
 
-## Available Scripts
+<h1 align="center">Projeto Instagram</h1>
 
-In the project directory, you can run:
+![uses-react](https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![uses-node js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+[![uses-javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com)
+![uses-html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![uses-css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![built-with-git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+![built-with-vsc](https://img.shields.io/badge/VISUAL%20STUDIO%20CODE-blue?style=for-the-badge&logo=visualstudiocode)
 
-### `npm start`
+## Table of contents
+* [Project Description](#project-description)
+* [Status](#status)
+* [Author](#author)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Description
+<p align="justify">This is my first project front-end on Driven bootcamp using React. The intention was to remake the <a href="https://github.com/thalesgomest/projeto2-instagram">project2-instagram</a> repository, componentizing the HTML elements with React</p>
 
-### `npm test`
+### Status
+![status-finished](https://user-images.githubusercontent.com/97575616/152926720-d042178b-24c0-4d6b-94fb-0ccbd3c082cc.svg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ## Requirements
 
-### `npm run build`
+* **LAYOUT**
+    - [x] Apply a pre-defined layout;
+    - [x] Apply a mobile layout, using media query.
+    - [x] The layout without sidebar should be enable when screen width is smaller than 935px.
+    - [x] The layout should be enable when screen width was smaller than 614px
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **ICONS**
+    - [x] Use icons of library [*Ionicons*](https://ionicons.com/)
+    - [x] All news must be links. It is not necessary to link to the real pages, it could be a fake link.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **STORIES**
+    - [x] In the stories box, there must be enough items to exceed the width, but the extra items must not be displayed
+    - [x] In desktop mode, there should be a little arrow in the right corner of the stories
+    - [x] The arrow does not need to work when clicking
+    - [x] There cannot be a visible horizontal scroll
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **BONUS**
 
-### `npm run eject`
+  **VIDEO**
+   - [ ] At least one of the posts must be a video
+   - [ ] No play button required
+   - [ ] The video must be inserted in .mp4 or .ogg format, so that it works in any browser
+   - [ ] Video should start automatically
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  **SIDE BAR**
+   - [ ] sidebar stays fixed as the user scrolls down the page like on Instagram
+  
+  **COMMENTS**
+   - [ ] Have comments on posts, with a like button in the right corner of each comment
+   - [ ] A box to type the comment, using the `input` tag
+   - [ ] A button next to this box to Publish, with color `#B2DFFC` initially and, when hovering the mouse, stay with color `#0095F6` with a transition that lasts `300ms`  -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Author
+---
+<div align="center">
+<img width= 200px src="https://user-images.githubusercontent.com/97575616/157583676-812b2612-a644-4c18-be9c-61f633406f50.png" alt=""/>
+  <p> <i><b>Thales Gomes Targino</i></b> </p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br /> [![Twitter Badge](https://img.shields.io/badge/-@thales_targino-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/thales_targino)](https://twitter.com/thales_targino) [![Linkedin Badge](https://img.shields.io/badge/-thalesgomest-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thales-gomes-targino/)](https://www.linkedin.com/in/thales-gomes-targino/) 
+[![Gmail Badge](https://img.shields.io/badge/-thalestargino@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thalestargino@gmail.com)](mailto:thalestargino@gmail.com)
+  
+</div>
