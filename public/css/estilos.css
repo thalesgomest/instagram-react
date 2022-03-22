@@ -216,6 +216,12 @@ nav ion-icon {
   position: relative;
 } 
 
+.stories {
+  margin-top: 88px;
+  margin-bottom: 20px;
+  min-width: 614px;
+}
+
 .story {
   display: flex;
   height: 100%;
@@ -278,6 +284,7 @@ nav ion-icon {
 .post {
   background-color: white;
   border: 1px solid #DBDBDB;
+  margin: 0 auto;
   margin-bottom: 60px;
 }
 
@@ -297,7 +304,7 @@ nav ion-icon {
 }
 
 .post video {
-  width: 100%;
+  min-width: 612px;
 }
 
 .post-titulo--usuario {
